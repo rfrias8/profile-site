@@ -1,26 +1,46 @@
-html{
-    background-image: url("comp.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 100%;
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 body{
     background-color: black;
     background-size: cover;
-    opacity: 90%; /*This determines the opacity of my body*/
+    opacity: 85%; /*This determines the opacity of my body*/
     margin-left: 20%;
     margin-right: 20%;
     height: 100%;
+    color: white;
 }
 
 body img{
     width: 200px;
     border-radius: 50%;
+    margin: 20px;
 }
 
-h1, h2{
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+html{
+    background-image: url("comp.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+}
+
+h1 {
+    padding-left: 5%;
+}
+
+h1, h2, h3{
     margin-left: 30px;
-    color: white;
 }
 
 nav{
@@ -40,12 +60,12 @@ nav a{
 }
 
 footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 20px 25% 20px 25%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
 }
 
 .social-icon{
-
-    height: 50px;
-} 
+    height: 20px;
+    padding: 10px;
+}
