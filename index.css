@@ -6,8 +6,8 @@ html{
 body{
     background-color: black;
     opacity: 90%; /*This determines the opacity of my body*/
-    margin-left: 15%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 body img{
@@ -16,11 +16,28 @@ body img{
 }
 
 h1{
+    margin-left: 30px;
     color: white;
+}
+
+h2{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
 }
 
 nav a{
     color: white;
+    padding: 10px;
+}
+
+#quote{
+    display: flex;
+    justify-content: center;
 }
 
 .social{
