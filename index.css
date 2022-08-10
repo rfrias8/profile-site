@@ -2,12 +2,15 @@ html{
     background-image: url("comp.jpg");
     background-size:cover;
     background-repeat: no-repeat;
+    height: 100%;
 }
 body{
     background-color: black;
+    background-size: cover;
     opacity: 90%; /*This determines the opacity of my body*/
     margin-left: 20%;
     margin-right: 20%;
+    height: 100%;
 }
 
 body img{
