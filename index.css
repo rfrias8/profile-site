@@ -15,12 +15,8 @@ body img{
     border-radius: 50%;
 }
 
-h1{
+h1, h2{
     margin-left: 30px;
-    color: white;
-}
-
-h2{
     color: white;
 }
 
