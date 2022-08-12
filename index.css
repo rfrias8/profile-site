@@ -15,8 +15,8 @@ body{
     opacity: 85%; /*This determines the opacity of my body*/
     margin-left: 20%;
     margin-right: 20%;
-    height:100%;
-    color: white;   
+    min-height:100vh;
+    color: white; 
 }
 
 
@@ -40,9 +40,6 @@ html{
     display: flex;
 }
 
-h1 {
-    /* padding-left: 5%; */
-}
 
 h1, h2, h3{
     margin-left: 30px;
