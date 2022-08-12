@@ -1,12 +1,16 @@
-.about{
+/* .about{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10%;
-}
+    padding: 20px 10%;
+} */
 
 article{
     padding: 10%;
+}
+
+#main-content{
+    min-height: 80vh;
 }
 
 body{
@@ -16,15 +20,9 @@ body{
     margin-left: 20%;
     margin-right: 20%;
     color: white; 
+    min-height: 100vh;
 }
 
-
-#container{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 50vh;
-}
 
 .contributions{
     display: flex;
@@ -35,7 +33,6 @@ html{
     background-image: url("comp.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    display: flex;
 }
 
 
@@ -52,6 +49,10 @@ nav{
 nav a{
     color: white;
     padding: 10px;
+}
+
+p{
+    padding:20px 5%
 }
 
 
@@ -74,7 +75,7 @@ nav a{
 footer{
     display: flex;
     justify-content: flex-end;
-    margin-top: auto;
+    align-items:flex-end;
 }
 
 .social-icon{
