@@ -2,6 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10%;
+}
+
+article{
+    padding: 10%;
 }
 
 body{
@@ -10,8 +15,8 @@ body{
     opacity: 85%; /*This determines the opacity of my body*/
     margin-left: 20%;
     margin-right: 20%;
-    height: 100%;
-    color: white;
+    height:100%;
+    color: white;   
 }
 
 
@@ -36,7 +41,7 @@ html{
 }
 
 h1 {
-    padding-left: 5%;
+    /* padding-left: 5%; */
 }
 
 h1, h2, h3{
