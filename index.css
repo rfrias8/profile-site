@@ -15,7 +15,6 @@ body{
     opacity: 85%; /*This determines the opacity of my body*/
     margin-left: 20%;
     margin-right: 20%;
-    min-height:100vh;
     color: white; 
 }
 
@@ -24,7 +23,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 .contributions{
@@ -36,7 +35,6 @@ html{
     background-image: url("comp.jpg");
     background-size:cover;
     background-repeat: no-repeat;
-    height: 100%;
     display: flex;
 }
 
