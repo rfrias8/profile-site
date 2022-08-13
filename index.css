@@ -81,3 +81,32 @@ footer{
     padding: 10px;
     margin-right: 1rem;
 }
+
+@media screen and (max-width: 750px) {
+
+    body{
+        background-color: whitesmoke;
+        background-size: cover;
+        opacity: 80%; /*This determines the opacity of my body*/
+        margin-left: 0;
+        margin-right: 0;
+        color: black; 
+        min-height: 100vh;
+    }
+    
+    #profile-pic{
+        width: 100px;
+        border-radius: 50%;
+        margin: 20px;
+    }
+
+    .project{
+        height: 100px;
+    }
+
+    .social-icon{
+        height: 15px;
+        padding: 10px;
+        margin-right: 1rem;
+    }
+}
