@@ -27,7 +27,7 @@ body{
 .contributions{
     display: flex;
     justify-content: center;
-    /* align-items: space-around; THIS is where you left off */
+    margin: 8%;
 }
 
 .experience{
