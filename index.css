@@ -1,9 +1,9 @@
-/* .about{
+.about{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 10%;
-} */
+}
 
 article{
     padding: 10%;
@@ -14,12 +14,12 @@ article{
 }
 
 body{
-    background-color: black;
+    background-color: whitesmoke;
     background-size: cover;
     opacity: 85%; /*This determines the opacity of my body*/
     margin-left: 20%;
     margin-right: 20%;
-    color: white; 
+    color: black; 
     min-height: 100vh;
 }
 
@@ -48,7 +48,7 @@ nav{
 }
 
 nav a{
-    color: white;
+    color: black;
     padding: 10px;
 }
 
