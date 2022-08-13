@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 10%;
+    padding: 0 5%;
 }
 
 article{
-    padding: 10%;
+    padding: 0 5%;
 }
 
 #main-content{
@@ -16,7 +16,7 @@ article{
 body{
     background-color: whitesmoke;
     background-size: cover;
-    opacity: 85%; /*This determines the opacity of my body*/
+    opacity: 80%; /*This determines the opacity of my body*/
     margin-left: 20%;
     margin-right: 20%;
     color: black; 
@@ -30,6 +30,10 @@ body{
     /* align-items: space-around; THIS is where you left off */
 }
 
+.experience{
+    padding: 0 5%;
+}
+
 html{
     background-image: url("comp.jpg");
     background-size:cover;
@@ -38,7 +42,7 @@ html{
 
 
 h1, h2, h3{
-    margin-left: 30px;
+    margin-left: 5%;
 }
 
 nav{
@@ -52,11 +56,6 @@ nav a{
     padding: 10px;
 }
 
-p{
-    padding:20px 5%
-}
-
-
 #profile-pic{
     width: 200px;
     border-radius: 50%;
@@ -64,8 +63,7 @@ p{
 }
 
 .project{
-    height: 150px;
-    margin: 5%;
+    height: 200px;
 }
 
 #quote{
@@ -76,10 +74,10 @@ p{
 footer{
     display: flex;
     justify-content: flex-end;
-    align-items:flex-end;
 }
 
 .social-icon{
     height: 20px;
     padding: 10px;
+    margin-right: 1rem;
 }
